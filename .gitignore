@@ -1,0 +1,50 @@
+@'
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Raw and intermediate data
+data/raw/
+data/interim/
+data/processed/
+
+# Large model and prediction files
+data/exports/research_final_all_predictors/deep_30_seed_checkpoints/
+*.npz
+*.h5
+*.keras
+
+# Temporary files
+temp/
+tmp/
+*.log
+'@ | Set-Content -Encoding utf8 .gitignore
+
+@'
+
+# Local source data and previous experiment outputs
+data/context/
+data/exports/all_in_one_fixed/
+data/exports/modular_debug_v3/
+data/exports/research_feedback_improved/
+data/exports/research_ready_v2/
+data/exports/research_ready_v3/
+data/exports/simple_research_v2/
+'@ | Add-Content -Encoding utf8 .gitignore

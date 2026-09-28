@@ -1,0 +1,4 @@
+scenario,train_shape,validation_shape,test_shape,feature_count
+A_local_only,"(30821, 131)","(7512, 131)","(7972, 131)",131
+B_local_plus_neighbours,"(30821, 313)","(7512, 313)","(7972, 313)",313
+C_neighbours_plus_traffic,"(30821, 339)","(7512, 339)","(7972, 339)",339

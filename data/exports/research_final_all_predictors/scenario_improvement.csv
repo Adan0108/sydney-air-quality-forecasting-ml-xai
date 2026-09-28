@@ -1,0 +1,5 @@
+model,comparison,RMSE_improvement_pct
+RandomForest,B vs A,0.24127249553779676
+RandomForest,C vs B,-0.09736745250689995
+XGBoost,B vs A,0.3317391150363275
+XGBoost,C vs B,-0.07629604099803793

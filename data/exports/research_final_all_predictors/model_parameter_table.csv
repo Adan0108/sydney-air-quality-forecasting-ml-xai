@@ -1,0 +1,23 @@
+model,parameter,value,selection
+RandomForest,n_estimators,200,Shared A/B/C validation grid search
+RandomForest,max_depth,16,Shared A/B/C validation grid search
+RandomForest,min_samples_leaf,2,Shared A/B/C validation grid search
+RandomForest,max_features,0.7,Fixed
+XGBoost,n_estimators,450,Shared A/B/C validation grid search
+XGBoost,learning_rate,0.03,Shared A/B/C validation grid search
+XGBoost,max_depth,6,Shared A/B/C validation grid search
+XGBoost,subsample,0.9,Fixed
+XGBoost,colsample_bytree,0.9,Fixed
+LSTM,units,64,Shared A/B/C validation grid search
+LSTM,dropout,0.1,Shared A/B/C validation grid search
+LSTM,learning_rate,0.0005,Shared A/B/C validation grid search
+LSTM,batch_size,64,Shared A/B/C validation grid search
+GRU,units,64,Shared A/B/C validation grid search
+GRU,dropout,0.1,Shared A/B/C validation grid search
+GRU,learning_rate,0.0005,Shared A/B/C validation grid search
+GRU,batch_size,128,Shared A/B/C validation grid search
+LSTM / GRU,feature_scaler,robust,Validation sensitivity across scenarios
+LSTM / GRU,sequence_length,24,ACF + reference-study temporal context
+LSTM / GRU,dense_units,32,Fixed compact architecture
+LSTM / GRU,maximum_epochs,30,Maximum + EarlyStopping
+LSTM / GRU,early_stopping_patience,5,Validation-loss control

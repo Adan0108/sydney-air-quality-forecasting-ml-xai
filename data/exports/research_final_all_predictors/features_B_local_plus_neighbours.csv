@@ -1,0 +1,314 @@
+feature,group
+ROZELLE_HUMID,Rozelle current
+ROZELLE_SOLAR,Rozelle current
+ROZELLE_O3,Rozelle current
+ROZELLE_PM25,Rozelle current
+ROZELLE_PM10,Rozelle current
+ROZELLE_RAIN,Rozelle current
+ROZELLE_WSP,Rozelle current
+ROZELLE_CO,Rozelle current
+ROZELLE_NO2,Rozelle current
+HOUR,Time
+DAY_OF_WEEK,Time
+MONTH,Time
+IS_WEEKEND,Time
+HOUR_SIN,Time
+HOUR_COS,Time
+DOW_SIN,Time
+DOW_COS,Time
+MONTH_SIN,Time
+MONTH_COS,Time
+ROZELLE_WDR_SIN,Rozelle current
+ROZELLE_WDR_COS,Rozelle current
+ROZELLE_PM25_ROLL_MEAN_3,Rozelle history
+ROZELLE_PM25_ROLL_STD_3,Rozelle history
+ROZELLE_PM25_ROLL_MEAN_6,Rozelle history
+ROZELLE_PM25_ROLL_STD_6,Rozelle history
+ROZELLE_PM25_ROLL_MEAN_12,Rozelle history
+ROZELLE_PM25_ROLL_STD_12,Rozelle history
+ROZELLE_PM25_ROLL_MEAN_24,Rozelle history
+ROZELLE_PM25_ROLL_STD_24,Rozelle history
+ROZELLE_PM10_ROLL_MEAN_3,Rozelle history
+ROZELLE_PM10_ROLL_STD_3,Rozelle history
+ROZELLE_PM10_ROLL_MEAN_6,Rozelle history
+ROZELLE_PM10_ROLL_STD_6,Rozelle history
+ROZELLE_PM10_ROLL_MEAN_12,Rozelle history
+ROZELLE_PM10_ROLL_STD_12,Rozelle history
+ROZELLE_PM10_ROLL_MEAN_24,Rozelle history
+ROZELLE_PM10_ROLL_STD_24,Rozelle history
+ROZELLE_NO2_ROLL_MEAN_3,Rozelle history
+ROZELLE_NO2_ROLL_STD_3,Rozelle history
+ROZELLE_NO2_ROLL_MEAN_6,Rozelle history
+ROZELLE_NO2_ROLL_STD_6,Rozelle history
+ROZELLE_NO2_ROLL_MEAN_12,Rozelle history
+ROZELLE_NO2_ROLL_STD_12,Rozelle history
+ROZELLE_NO2_ROLL_MEAN_24,Rozelle history
+ROZELLE_NO2_ROLL_STD_24,Rozelle history
+ROZELLE_O3_ROLL_STD_3,Rozelle history
+ROZELLE_O3_ROLL_MEAN_6,Rozelle history
+ROZELLE_O3_ROLL_STD_6,Rozelle history
+ROZELLE_O3_ROLL_MEAN_12,Rozelle history
+ROZELLE_O3_ROLL_STD_12,Rozelle history
+ROZELLE_O3_ROLL_MEAN_24,Rozelle history
+ROZELLE_O3_ROLL_STD_24,Rozelle history
+ROZELLE_CO_ROLL_MEAN_3,Rozelle history
+ROZELLE_CO_ROLL_STD_3,Rozelle history
+ROZELLE_CO_ROLL_MEAN_6,Rozelle history
+ROZELLE_CO_ROLL_STD_6,Rozelle history
+ROZELLE_CO_ROLL_MEAN_12,Rozelle history
+ROZELLE_CO_ROLL_STD_12,Rozelle history
+ROZELLE_CO_ROLL_MEAN_24,Rozelle history
+ROZELLE_CO_ROLL_STD_24,Rozelle history
+ROZELLE_TEMP_ROLL_MEAN_3,Rozelle history
+ROZELLE_TEMP_ROLL_STD_3,Rozelle history
+ROZELLE_TEMP_ROLL_MEAN_6,Rozelle history
+ROZELLE_TEMP_ROLL_STD_6,Rozelle history
+ROZELLE_TEMP_ROLL_MEAN_12,Rozelle history
+ROZELLE_TEMP_ROLL_STD_12,Rozelle history
+ROZELLE_TEMP_ROLL_MEAN_24,Rozelle history
+ROZELLE_TEMP_ROLL_STD_24,Rozelle history
+ROZELLE_HUMID_ROLL_STD_3,Rozelle history
+ROZELLE_HUMID_ROLL_MEAN_6,Rozelle history
+ROZELLE_HUMID_ROLL_STD_6,Rozelle history
+ROZELLE_HUMID_ROLL_MEAN_12,Rozelle history
+ROZELLE_HUMID_ROLL_STD_12,Rozelle history
+ROZELLE_HUMID_ROLL_MEAN_24,Rozelle history
+ROZELLE_HUMID_ROLL_STD_24,Rozelle history
+ROZELLE_WSP_ROLL_MEAN_3,Rozelle history
+ROZELLE_WSP_ROLL_STD_3,Rozelle history
+ROZELLE_WSP_ROLL_MEAN_6,Rozelle history
+ROZELLE_WSP_ROLL_STD_6,Rozelle history
+ROZELLE_WSP_ROLL_MEAN_12,Rozelle history
+ROZELLE_WSP_ROLL_STD_12,Rozelle history
+ROZELLE_WSP_ROLL_MEAN_24,Rozelle history
+ROZELLE_WSP_ROLL_STD_24,Rozelle history
+ROZELLE_PM25_LAG_1,Rozelle history
+ROZELLE_PM25_LAG_3,Rozelle history
+ROZELLE_PM25_LAG_6,Rozelle history
+ROZELLE_PM25_LAG_12,Rozelle history
+ROZELLE_PM25_LAG_24,Rozelle history
+ROZELLE_PM10_LAG_1,Rozelle history
+ROZELLE_PM10_LAG_3,Rozelle history
+ROZELLE_PM10_LAG_6,Rozelle history
+ROZELLE_PM10_LAG_12,Rozelle history
+ROZELLE_PM10_LAG_24,Rozelle history
+ROZELLE_NO2_LAG_1,Rozelle history
+ROZELLE_NO2_LAG_3,Rozelle history
+ROZELLE_NO2_LAG_6,Rozelle history
+ROZELLE_NO2_LAG_12,Rozelle history
+ROZELLE_NO2_LAG_24,Rozelle history
+ROZELLE_O3_LAG_1,Rozelle history
+ROZELLE_O3_LAG_3,Rozelle history
+ROZELLE_O3_LAG_6,Rozelle history
+ROZELLE_O3_LAG_12,Rozelle history
+ROZELLE_O3_LAG_24,Rozelle history
+ROZELLE_CO_LAG_1,Rozelle history
+ROZELLE_CO_LAG_3,Rozelle history
+ROZELLE_CO_LAG_6,Rozelle history
+ROZELLE_CO_LAG_12,Rozelle history
+ROZELLE_CO_LAG_24,Rozelle history
+ROZELLE_TEMP_LAG_6,Rozelle history
+ROZELLE_TEMP_LAG_12,Rozelle history
+ROZELLE_TEMP_LAG_24,Rozelle history
+ROZELLE_HUMID_LAG_1,Rozelle history
+ROZELLE_HUMID_LAG_3,Rozelle history
+ROZELLE_HUMID_LAG_6,Rozelle history
+ROZELLE_HUMID_LAG_12,Rozelle history
+ROZELLE_HUMID_LAG_24,Rozelle history
+ROZELLE_WSP_LAG_1,Rozelle history
+ROZELLE_WSP_LAG_3,Rozelle history
+ROZELLE_WSP_LAG_6,Rozelle history
+ROZELLE_WSP_LAG_12,Rozelle history
+ROZELLE_WSP_LAG_24,Rozelle history
+ROZELLE_WDR_SIN_LAG_1,Rozelle history
+ROZELLE_WDR_SIN_LAG_3,Rozelle history
+ROZELLE_WDR_SIN_LAG_6,Rozelle history
+ROZELLE_WDR_SIN_LAG_12,Rozelle history
+ROZELLE_WDR_SIN_LAG_24,Rozelle history
+ROZELLE_WDR_COS_LAG_1,Rozelle history
+ROZELLE_WDR_COS_LAG_3,Rozelle history
+ROZELLE_WDR_COS_LAG_6,Rozelle history
+ROZELLE_WDR_COS_LAG_12,Rozelle history
+ROZELLE_WDR_COS_LAG_24,Rozelle history
+RANDWICK_TEMP,Neighbour station current
+RANDWICK_PM25,Neighbour station current
+RANDWICK_PM10,Neighbour station current
+RANDWICK_O3,Neighbour station current
+RANDWICK_HUMID,Neighbour station current
+RANDWICK_RAIN,Neighbour station current
+RANDWICK_NO2,Neighbour station current
+RANDWICK_WSP,Neighbour station current
+LIVERPOOL_HUMID,Neighbour station current
+LIVERPOOL_NO2,Neighbour station current
+LIVERPOOL_O3,Neighbour station current
+LIVERPOOL_WSP,Neighbour station current
+LIVERPOOL_TEMP,Neighbour station current
+LIVERPOOL_CO,Neighbour station current
+LIVERPOOL_PM25,Neighbour station current
+LIVERPOOL_PM10,Neighbour station current
+LIVERPOOL_RAIN,Neighbour station current
+ST_MARYS_O3,Neighbour station current
+ST_MARYS_PM25,Neighbour station current
+ST_MARYS_WSP,Neighbour station current
+ST_MARYS_NO2,Neighbour station current
+ST_MARYS_HUMID,Neighbour station current
+ST_MARYS_PM10,Neighbour station current
+ST_MARYS_TEMP,Neighbour station current
+BRINGELLY_PM25,Neighbour station current
+BRINGELLY_PM10,Neighbour station current
+BRINGELLY_NO2,Neighbour station current
+BRINGELLY_WSP,Neighbour station current
+BRINGELLY_O3,Neighbour station current
+BRINGELLY_SOLAR,Neighbour station current
+BRINGELLY_HUMID,Neighbour station current
+RICHMOND_WSP,Neighbour station current
+RICHMOND_RAIN,Neighbour station current
+RICHMOND_HUMID,Neighbour station current
+RICHMOND_PM25,Neighbour station current
+RICHMOND_O3,Neighbour station current
+RICHMOND_PM10,Neighbour station current
+RICHMOND_NO2,Neighbour station current
+RANDWICK_WDR_SIN,Neighbour station current
+RANDWICK_WDR_COS,Neighbour station current
+LIVERPOOL_WDR_SIN,Neighbour station current
+LIVERPOOL_WDR_COS,Neighbour station current
+ST_MARYS_WDR_SIN,Neighbour station current
+ST_MARYS_WDR_COS,Neighbour station current
+BRINGELLY_WDR_SIN,Neighbour station current
+BRINGELLY_WDR_COS,Neighbour station current
+RICHMOND_WDR_SIN,Neighbour station current
+RICHMOND_WDR_COS,Neighbour station current
+NEIGHBOR_MEAN_PM25,Neighbour aggregate / interaction
+NEIGHBOR_MAX_PM25,Neighbour aggregate / interaction
+NEIGHBOR_MIN_PM25,Neighbour aggregate / interaction
+NEIGHBOR_STD_PM25,Neighbour aggregate / interaction
+NEIGHBOR_MEAN_PM10,Neighbour aggregate / interaction
+NEIGHBOR_MAX_PM10,Neighbour aggregate / interaction
+NEIGHBOR_MIN_PM10,Neighbour aggregate / interaction
+NEIGHBOR_STD_PM10,Neighbour aggregate / interaction
+NEIGHBOR_MEAN_NO2,Neighbour aggregate / interaction
+NEIGHBOR_MAX_NO2,Neighbour aggregate / interaction
+NEIGHBOR_MIN_NO2,Neighbour aggregate / interaction
+NEIGHBOR_STD_NO2,Neighbour aggregate / interaction
+NEIGHBOR_MEAN_O3,Neighbour aggregate / interaction
+NEIGHBOR_MAX_O3,Neighbour aggregate / interaction
+NEIGHBOR_MIN_O3,Neighbour aggregate / interaction
+NEIGHBOR_STD_O3,Neighbour aggregate / interaction
+NEIGHBOR_PM25_X_ROZELLE_WSP,Neighbour aggregate / interaction
+NEIGHBOR_PM25_X_ROZELLE_WDR_SIN,Neighbour aggregate / interaction
+NEIGHBOR_PM25_X_ROZELLE_WDR_COS,Neighbour aggregate / interaction
+RANDWICK_PM25_LAG_1,Neighbour station history
+RANDWICK_PM25_LAG_3,Neighbour station history
+RANDWICK_PM25_LAG_6,Neighbour station history
+RANDWICK_PM25_LAG_12,Neighbour station history
+RANDWICK_PM25_LAG_24,Neighbour station history
+RANDWICK_PM10_LAG_1,Neighbour station history
+RANDWICK_PM10_LAG_3,Neighbour station history
+RANDWICK_PM10_LAG_6,Neighbour station history
+RANDWICK_PM10_LAG_12,Neighbour station history
+RANDWICK_PM10_LAG_24,Neighbour station history
+RANDWICK_NO2_LAG_1,Neighbour station history
+RANDWICK_NO2_LAG_3,Neighbour station history
+RANDWICK_NO2_LAG_6,Neighbour station history
+RANDWICK_NO2_LAG_12,Neighbour station history
+RANDWICK_NO2_LAG_24,Neighbour station history
+RANDWICK_O3_LAG_1,Neighbour station history
+RANDWICK_O3_LAG_3,Neighbour station history
+RANDWICK_O3_LAG_6,Neighbour station history
+RANDWICK_O3_LAG_12,Neighbour station history
+RANDWICK_O3_LAG_24,Neighbour station history
+LIVERPOOL_PM25_LAG_1,Neighbour station history
+LIVERPOOL_PM25_LAG_3,Neighbour station history
+LIVERPOOL_PM25_LAG_6,Neighbour station history
+LIVERPOOL_PM25_LAG_12,Neighbour station history
+LIVERPOOL_PM25_LAG_24,Neighbour station history
+LIVERPOOL_PM10_LAG_1,Neighbour station history
+LIVERPOOL_PM10_LAG_3,Neighbour station history
+LIVERPOOL_PM10_LAG_6,Neighbour station history
+LIVERPOOL_PM10_LAG_12,Neighbour station history
+LIVERPOOL_PM10_LAG_24,Neighbour station history
+LIVERPOOL_NO2_LAG_1,Neighbour station history
+LIVERPOOL_NO2_LAG_3,Neighbour station history
+LIVERPOOL_NO2_LAG_6,Neighbour station history
+LIVERPOOL_NO2_LAG_12,Neighbour station history
+LIVERPOOL_NO2_LAG_24,Neighbour station history
+LIVERPOOL_O3_LAG_1,Neighbour station history
+LIVERPOOL_O3_LAG_3,Neighbour station history
+LIVERPOOL_O3_LAG_6,Neighbour station history
+LIVERPOOL_O3_LAG_12,Neighbour station history
+LIVERPOOL_O3_LAG_24,Neighbour station history
+LIVERPOOL_CO_LAG_1,Neighbour station history
+LIVERPOOL_CO_LAG_3,Neighbour station history
+LIVERPOOL_CO_LAG_6,Neighbour station history
+LIVERPOOL_CO_LAG_12,Neighbour station history
+LIVERPOOL_CO_LAG_24,Neighbour station history
+ST_MARYS_PM25_LAG_1,Neighbour station history
+ST_MARYS_PM25_LAG_3,Neighbour station history
+ST_MARYS_PM25_LAG_6,Neighbour station history
+ST_MARYS_PM25_LAG_12,Neighbour station history
+ST_MARYS_PM25_LAG_24,Neighbour station history
+ST_MARYS_PM10_LAG_1,Neighbour station history
+ST_MARYS_PM10_LAG_3,Neighbour station history
+ST_MARYS_PM10_LAG_6,Neighbour station history
+ST_MARYS_PM10_LAG_12,Neighbour station history
+ST_MARYS_PM10_LAG_24,Neighbour station history
+ST_MARYS_NO2_LAG_1,Neighbour station history
+ST_MARYS_NO2_LAG_3,Neighbour station history
+ST_MARYS_NO2_LAG_6,Neighbour station history
+ST_MARYS_NO2_LAG_12,Neighbour station history
+ST_MARYS_NO2_LAG_24,Neighbour station history
+ST_MARYS_O3_LAG_1,Neighbour station history
+ST_MARYS_O3_LAG_3,Neighbour station history
+ST_MARYS_O3_LAG_6,Neighbour station history
+ST_MARYS_O3_LAG_12,Neighbour station history
+ST_MARYS_O3_LAG_24,Neighbour station history
+BRINGELLY_PM25_LAG_1,Neighbour station history
+BRINGELLY_PM25_LAG_3,Neighbour station history
+BRINGELLY_PM25_LAG_6,Neighbour station history
+BRINGELLY_PM25_LAG_12,Neighbour station history
+BRINGELLY_PM25_LAG_24,Neighbour station history
+BRINGELLY_PM10_LAG_1,Neighbour station history
+BRINGELLY_PM10_LAG_3,Neighbour station history
+BRINGELLY_PM10_LAG_6,Neighbour station history
+BRINGELLY_PM10_LAG_12,Neighbour station history
+BRINGELLY_PM10_LAG_24,Neighbour station history
+BRINGELLY_NO2_LAG_1,Neighbour station history
+BRINGELLY_NO2_LAG_3,Neighbour station history
+BRINGELLY_NO2_LAG_6,Neighbour station history
+BRINGELLY_NO2_LAG_12,Neighbour station history
+BRINGELLY_NO2_LAG_24,Neighbour station history
+BRINGELLY_O3_LAG_1,Neighbour station history
+BRINGELLY_O3_LAG_3,Neighbour station history
+BRINGELLY_O3_LAG_6,Neighbour station history
+BRINGELLY_O3_LAG_12,Neighbour station history
+BRINGELLY_O3_LAG_24,Neighbour station history
+RICHMOND_PM25_LAG_1,Neighbour station history
+RICHMOND_PM25_LAG_3,Neighbour station history
+RICHMOND_PM25_LAG_6,Neighbour station history
+RICHMOND_PM25_LAG_12,Neighbour station history
+RICHMOND_PM25_LAG_24,Neighbour station history
+RICHMOND_PM10_LAG_1,Neighbour station history
+RICHMOND_PM10_LAG_3,Neighbour station history
+RICHMOND_PM10_LAG_6,Neighbour station history
+RICHMOND_PM10_LAG_12,Neighbour station history
+RICHMOND_PM10_LAG_24,Neighbour station history
+RICHMOND_NO2_LAG_1,Neighbour station history
+RICHMOND_NO2_LAG_3,Neighbour station history
+RICHMOND_NO2_LAG_6,Neighbour station history
+RICHMOND_NO2_LAG_12,Neighbour station history
+RICHMOND_NO2_LAG_24,Neighbour station history
+RICHMOND_O3_LAG_1,Neighbour station history
+RICHMOND_O3_LAG_3,Neighbour station history
+RICHMOND_O3_LAG_6,Neighbour station history
+RICHMOND_O3_LAG_12,Neighbour station history
+RICHMOND_O3_LAG_24,Neighbour station history
+NEIGHBOR_MEAN_PM25_LAG_1,Neighbour aggregate / interaction
+NEIGHBOR_MEAN_PM25_LAG_3,Neighbour aggregate / interaction
+NEIGHBOR_MEAN_PM25_LAG_6,Neighbour aggregate / interaction
+NEIGHBOR_MEAN_PM25_LAG_12,Neighbour aggregate / interaction
+NEIGHBOR_MEAN_PM25_LAG_24,Neighbour aggregate / interaction
+NEIGHBOR_MEAN_PM10_LAG_1,Neighbour aggregate / interaction
+NEIGHBOR_MEAN_PM10_LAG_3,Neighbour aggregate / interaction
+NEIGHBOR_MEAN_PM10_LAG_6,Neighbour aggregate / interaction
+NEIGHBOR_MEAN_PM10_LAG_12,Neighbour aggregate / interaction
+NEIGHBOR_MEAN_PM10_LAG_24,Neighbour aggregate / interaction

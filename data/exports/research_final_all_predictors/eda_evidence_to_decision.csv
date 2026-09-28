@@ -1,0 +1,6 @@
+analysis,finding,decision
+Missing-gap audit,Short gaps exist across station predictors,Causal ffill <= 3 h; longer gaps use TRAIN-fitted imputation
+Per-feature distributions,Extreme candidates exist across multiple variables/stations,Flag first; never delete from IQR alone
+Temporal / spatial support,Some candidates are coherent and some isolated,Keep supported values; test isolated masking
+ACF / time patterns,Recent and daily structure is useful,"Use lags, cyclical time features and 24 h DL sequence"
+Correlation / scatter,Local and neighbour predictors overlap but add context,Scenario B + conservative TRAIN-only redundancy screening

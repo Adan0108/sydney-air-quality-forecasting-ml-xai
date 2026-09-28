@@ -1,0 +1,314 @@
+feature,mean_abs_shap,feature_value_vs_shap_spearman,interpretation
+ROZELLE_PM25,2.292996883392334,0.9967846928744597,Higher values generally push prediction upward
+ROZELLE_PM10,0.7558478713035583,0.9498591156709312,Higher values generally push prediction upward
+ROZELLE_CO,0.3127094507217407,0.8796016455045184,Higher values generally push prediction upward
+ROZELLE_PM25_LAG_1,0.2350132018327713,-0.9776064128525137,Higher values generally push prediction downward
+NEIGHBOR_MEAN_PM25,0.1860904097557068,0.7280058095768429,Higher values generally push prediction upward
+ROZELLE_NO2,0.16710977256298065,0.9471926943785804,Higher values generally push prediction upward
+ROZELLE_PM25_ROLL_MEAN_24,0.12204156816005707,0.8771607947266475,Higher values generally push prediction upward
+ROZELLE_PM25_ROLL_MEAN_3,0.114481121301651,0.9289277550282582,Higher values generally push prediction upward
+HOUR_COS,0.09719762206077576,-0.10464123693518486,Mixed / non-linear directional effect
+ST_MARYS_TEMP,0.08942274004220963,-0.7024180047377271,Higher values generally push prediction downward
+RANDWICK_PM10,0.08154027909040451,0.9237551132383819,Higher values generally push prediction upward
+LIVERPOOL_PM10,0.06982170790433884,0.8763428499465594,Higher values generally push prediction upward
+HOUR_SIN,0.05944175645709038,0.1923639397371055,Mixed / non-linear directional effect
+NEIGHBOR_PM25_X_ROZELLE_WDR_SIN,0.055448055267333984,-0.7464496653104081,Higher values generally push prediction downward
+HOUR,0.05238483101129532,0.3389045793075994,Higher values generally push prediction upward
+DAY_OF_WEEK,0.047429583966732025,0.7672423238426802,Higher values generally push prediction upward
+ROZELLE_PM10_ROLL_MEAN_24,0.04641970619559288,-0.7504938432776894,Higher values generally push prediction downward
+LIVERPOOL_O3_LAG_6,0.03996606171131134,0.8079969056835381,Higher values generally push prediction upward
+BRINGELLY_SOLAR,0.037195295095443726,-0.6692384607130091,Higher values generally push prediction downward
+ROZELLE_O3,0.03693170100450516,-0.1968742188575517,Mixed / non-linear directional effect
+NEIGHBOR_MEAN_PM10,0.03592989221215248,0.8017352506235234,Higher values generally push prediction upward
+RANDWICK_TEMP,0.03575718775391579,-0.5172408739418826,Higher values generally push prediction downward
+ROZELLE_PM25_ROLL_STD_3,0.03315074369311333,0.37198386045335535,Higher values generally push prediction upward
+NEIGHBOR_MEAN_PM25_LAG_3,0.032866157591342926,0.8429223581309292,Higher values generally push prediction upward
+ROZELLE_WSP,0.03082834742963314,-0.6383427592544144,Higher values generally push prediction downward
+RANDWICK_PM25,0.030603934079408646,0.6432837304485186,Higher values generally push prediction upward
+ROZELLE_PM10_LAG_3,0.030249714851379395,-0.7273068703492693,Higher values generally push prediction downward
+ROZELLE_O3_LAG_3,0.028744610026478767,0.5933680603713615,Higher values generally push prediction upward
+RANDWICK_WSP,0.028149733319878578,-0.6992061515623309,Higher values generally push prediction downward
+ROZELLE_PM10_LAG_1,0.02789255604147911,-0.5514360607552118,Higher values generally push prediction downward
+ROZELLE_HUMID_LAG_6,0.027042437344789505,-0.6705712277049017,Higher values generally push prediction downward
+RANDWICK_HUMID,0.0248846635222435,0.7484319970403169,Higher values generally push prediction upward
+ROZELLE_TEMP_ROLL_STD_3,0.024794891476631165,0.1824813651890572,Mixed / non-linear directional effect
+BRINGELLY_PM25_LAG_3,0.02477344125509262,0.4710957524662998,Higher values generally push prediction upward
+RANDWICK_O3,0.023629169911146164,-0.02074652943275932,Mixed / non-linear directional effect
+LIVERPOOL_PM25,0.023433122783899307,0.41980549823694274,Higher values generally push prediction upward
+ROZELLE_SOLAR,0.022803692147135735,0.47436803676734957,Higher values generally push prediction upward
+BRINGELLY_PM10_LAG_3,0.020737871527671814,-0.615398699860859,Higher values generally push prediction downward
+ROZELLE_CO_LAG_1,0.020644789561629295,-0.8936771884339684,Higher values generally push prediction downward
+ROZELLE_PM10_ROLL_STD_3,0.020515186712145805,0.2689882562854266,Higher values generally push prediction upward
+ROZELLE_PM10_ROLL_MEAN_6,0.019729936495423317,-0.7424133297007754,Higher values generally push prediction downward
+ROZELLE_WDR_COS_LAG_3,0.019294464960694313,0.6882724340874671,Higher values generally push prediction upward
+ROZELLE_WSP_ROLL_STD_3,0.018877752125263214,-0.7423070150195313,Higher values generally push prediction downward
+LIVERPOOL_O3,0.01887093111872673,-0.5750613168717931,Higher values generally push prediction downward
+NEIGHBOR_MEAN_O3,0.01860903576016426,-0.4953192653734751,Higher values generally push prediction downward
+ST_MARYS_O3_LAG_6,0.018093664199113846,0.10370732706887484,Mixed / non-linear directional effect
+MONTH_SIN,0.01806684024631977,-0.6517146002920997,Higher values generally push prediction downward
+ROZELLE_NO2_ROLL_STD_24,0.017267761752009392,-0.8792230436027256,Higher values generally push prediction downward
+ROZELLE_PM25_ROLL_MEAN_6,0.01685093343257904,-0.19552488987730893,Mixed / non-linear directional effect
+NEIGHBOR_MIN_O3,0.016657354310154915,-0.6183508659540635,Higher values generally push prediction downward
+NEIGHBOR_MAX_PM25,0.016453970223665237,0.1452567801509906,Mixed / non-linear directional effect
+LIVERPOOL_PM10_LAG_3,0.015546065755188465,-0.4624555293716798,Higher values generally push prediction downward
+ROZELLE_O3_ROLL_MEAN_12,0.015455221757292747,0.8688352211009158,Higher values generally push prediction upward
+NEIGHBOR_STD_NO2,0.014832897111773491,0.48975788713357327,Higher values generally push prediction upward
+ROZELLE_O3_LAG_6,0.014403708279132843,0.7886037872538015,Higher values generally push prediction upward
+ROZELLE_WSP_ROLL_STD_24,0.014389392919838428,-0.7651208445052782,Higher values generally push prediction downward
+ROZELLE_HUMID,0.013977205380797386,0.5714321072025359,Higher values generally push prediction upward
+ROZELLE_O3_ROLL_MEAN_6,0.013925636187195778,0.6702336731675327,Higher values generally push prediction upward
+RANDWICK_PM25_LAG_3,0.013595608063042164,0.17702968821401138,Mixed / non-linear directional effect
+ROZELLE_WDR_COS,0.013249434530735016,-0.7407003167770296,Higher values generally push prediction downward
+NEIGHBOR_MEAN_PM25_LAG_6,0.01307978667318821,0.7558956391605297,Higher values generally push prediction upward
+ROZELLE_HUMID_ROLL_MEAN_12,0.012828540988266468,0.4098638595604745,Higher values generally push prediction upward
+ROZELLE_O3_LAG_1,0.012638995423913002,0.804906511118391,Higher values generally push prediction upward
+RANDWICK_NO2,0.012537850998342037,0.8136000827926256,Higher values generally push prediction upward
+BRINGELLY_O3_LAG_3,0.012145894579589367,0.5227892648242707,Higher values generally push prediction upward
+ROZELLE_HUMID_ROLL_STD_6,0.011858919635415077,-0.8713447584047399,Higher values generally push prediction downward
+ROZELLE_WSP_ROLL_MEAN_24,0.011671307496726513,-0.5432442136959567,Higher values generally push prediction downward
+RICHMOND_PM25_LAG_3,0.011416635476052761,0.7803997742427133,Higher values generally push prediction upward
+ST_MARYS_O3_LAG_3,0.010900094173848629,0.7926268353130439,Higher values generally push prediction upward
+ROZELLE_TEMP_ROLL_MEAN_3,0.010542554780840874,0.511189896243556,Higher values generally push prediction upward
+ROZELLE_TEMP_ROLL_STD_6,0.010331511497497559,-0.8395702473140457,Higher values generally push prediction downward
+ROZELLE_NO2_ROLL_MEAN_12,0.010215653106570244,-0.7187944148460729,Higher values generally push prediction downward
+RANDWICK_WDR_SIN,0.010073220357298851,0.17337326305006495,Mixed / non-linear directional effect
+ST_MARYS_PM10_LAG_1,0.009847532026469707,-0.7435229310425358,Higher values generally push prediction downward
+ROZELLE_O3_ROLL_MEAN_24,0.00971786119043827,-0.044244775547637734,Mixed / non-linear directional effect
+ROZELLE_WSP_ROLL_MEAN_6,0.009653288871049881,-0.7345662250091104,Higher values generally push prediction downward
+ROZELLE_CO_ROLL_MEAN_3,0.00961143895983696,-0.6487033102134537,Higher values generally push prediction downward
+ROZELLE_WSP_ROLL_STD_6,0.009165684692561626,-0.7768427979319941,Higher values generally push prediction downward
+LIVERPOOL_TEMP,0.009157874621450901,0.03922940005186987,Mixed / non-linear directional effect
+ROZELLE_PM25_LAG_6,0.008664308115839958,0.8219890962251858,Higher values generally push prediction upward
+ROZELLE_TEMP_ROLL_MEAN_12,0.008140655234456062,-0.27684491620691654,Higher values generally push prediction downward
+ROZELLE_PM25_ROLL_STD_6,0.008077100850641727,-0.12222882643016517,Mixed / non-linear directional effect
+ROZELLE_WDR_COS_LAG_24,0.008050603792071342,-0.7905877830887049,Higher values generally push prediction downward
+BRINGELLY_O3_LAG_6,0.008049989119172096,0.30886134050984637,Higher values generally push prediction upward
+NEIGHBOR_MEAN_PM25_LAG_12,0.007984982803463936,0.20613692279943166,Higher values generally push prediction upward
+ROZELLE_HUMID_ROLL_STD_3,0.007903746329247952,0.668414302589391,Higher values generally push prediction upward
+RICHMOND_O3_LAG_6,0.007743358612060547,0.7299299502230931,Higher values generally push prediction upward
+ST_MARYS_PM25,0.007740914821624756,-0.7271175555624533,Higher values generally push prediction downward
+ROZELLE_WDR_SIN_LAG_1,0.007581657264381647,-0.8479344689630601,Higher values generally push prediction downward
+RANDWICK_NO2_LAG_24,0.007512363139539957,-0.7793152457750873,Higher values generally push prediction downward
+ROZELLE_WSP_ROLL_STD_12,0.007452108431607485,-0.6366615416346352,Higher values generally push prediction downward
+ROZELLE_NO2_LAG_1,0.007406581658869982,-0.3061261385672215,Higher values generally push prediction downward
+ROZELLE_TEMP_ROLL_MEAN_24,0.007322788704186678,-0.9162528509606257,Higher values generally push prediction downward
+DOW_SIN,0.006997709162533283,-0.6368006569448986,Higher values generally push prediction downward
+ROZELLE_WSP_ROLL_MEAN_3,0.0068926322273910046,-0.5463578164667201,Higher values generally push prediction downward
+RICHMOND_HUMID,0.006880449131131172,0.6205655573998836,Higher values generally push prediction upward
+LIVERPOOL_O3_LAG_3,0.0068128337152302265,0.33735018854763393,Higher values generally push prediction upward
+ROZELLE_HUMID_ROLL_STD_12,0.0068003712221980095,-0.8343725273282957,Higher values generally push prediction downward
+ROZELLE_NO2_LAG_6,0.006763072218745947,-0.7656752528763066,Higher values generally push prediction downward
+ROZELLE_PM25_ROLL_STD_24,0.006681677885353565,-0.5412071325445784,Higher values generally push prediction downward
+ROZELLE_HUMID_LAG_3,0.006561397109180689,-0.6671262673216706,Higher values generally push prediction downward
+ROZELLE_WSP_ROLL_MEAN_12,0.006546290125697851,-0.7714709750979474,Higher values generally push prediction downward
+NEIGHBOR_PM25_X_ROZELLE_WDR_COS,0.00646476075053215,-0.7138688991806198,Higher values generally push prediction downward
+ROZELLE_PM10_ROLL_STD_6,0.0064524938352406025,0.4116066975418596,Higher values generally push prediction upward
+ROZELLE_WDR_COS_LAG_1,0.006451976951211691,0.8185244689206149,Higher values generally push prediction upward
+LIVERPOOL_WSP,0.006436731666326523,-0.6293333138143552,Higher values generally push prediction downward
+ROZELLE_PM10_ROLL_MEAN_3,0.0063214232213795185,0.47599713535274835,Higher values generally push prediction upward
+ROZELLE_TEMP_ROLL_MEAN_6,0.006276318803429604,0.14183559322987563,Mixed / non-linear directional effect
+NEIGHBOR_MEAN_PM25_LAG_1,0.00622602691873908,0.7560250879823522,Higher values generally push prediction upward
+NEIGHBOR_MEAN_PM10_LAG_3,0.006150809116661549,-0.34123480230172903,Higher values generally push prediction downward
+RANDWICK_NO2_LAG_1,0.005927399266511202,-0.42386717736954477,Higher values generally push prediction downward
+LIVERPOOL_CO,0.005887564271688461,0.7183232971437191,Higher values generally push prediction upward
+BRINGELLY_PM25,0.005815565120428801,-0.44398976707731,Higher values generally push prediction downward
+RICHMOND_O3_LAG_3,0.005694395396858454,0.6877461113171781,Higher values generally push prediction upward
+ROZELLE_PM25_LAG_3,0.005662831012159586,0.23398240345449287,Higher values generally push prediction upward
+ROZELLE_CO_ROLL_STD_6,0.005591716151684523,0.06535131972981773,Mixed / non-linear directional effect
+ROZELLE_WDR_SIN,0.005556765012443066,-0.6651680292808432,Higher values generally push prediction downward
+LIVERPOOL_O3_LAG_12,0.005473897326737642,0.7929290802855201,Higher values generally push prediction upward
+RICHMOND_WSP,0.005424171686172485,-0.21440242879788407,Higher values generally push prediction downward
+ROZELLE_PM10_ROLL_STD_24,0.00538942776620388,-0.5053173457334108,Higher values generally push prediction downward
+ROZELLE_WSP_LAG_3,0.005331250373274088,0.4855114444161096,Higher values generally push prediction upward
+RICHMOND_PM25_LAG_6,0.005306456238031387,0.6409303314316741,Higher values generally push prediction upward
+BRINGELLY_NO2_LAG_1,0.005242136772722006,-0.4795276752750261,Higher values generally push prediction downward
+NEIGHBOR_MEAN_NO2,0.005234285723417997,0.7525776794532848,Higher values generally push prediction upward
+BRINGELLY_O3,0.005178986582905054,-0.1107003507239672,Mixed / non-linear directional effect
+RANDWICK_PM10_LAG_6,0.005104311276227236,-0.738615033485994,Higher values generally push prediction downward
+ROZELLE_HUMID_LAG_12,0.004993013571947813,0.298114478152022,Higher values generally push prediction upward
+LIVERPOOL_NO2,0.004956612829118967,0.4911561014605197,Higher values generally push prediction upward
+ROZELLE_O3_ROLL_STD_24,0.004922172054648399,0.33872999256839187,Higher values generally push prediction upward
+ROZELLE_HUMID_LAG_1,0.004885670728981495,0.5189122701955116,Higher values generally push prediction upward
+ROZELLE_CO_ROLL_STD_3,0.004842191468924284,0.09992122326785033,Mixed / non-linear directional effect
+LIVERPOOL_NO2_LAG_12,0.004805207252502441,-0.5133795142634602,Higher values generally push prediction downward
+LIVERPOOL_PM25_LAG_1,0.004716305062174797,0.055757974926632065,Mixed / non-linear directional effect
+IS_WEEKEND,0.004649045877158642,0.758829180741079,Higher values generally push prediction upward
+LIVERPOOL_PM10_LAG_1,0.00462713185697794,-0.6636766066953232,Higher values generally push prediction downward
+ST_MARYS_PM25_LAG_6,0.004526475444436073,0.7763594153889796,Higher values generally push prediction upward
+ROZELLE_NO2_ROLL_STD_12,0.0045237187296152115,-0.7741064782742203,Higher values generally push prediction downward
+NEIGHBOR_STD_PM25,0.00440418254584074,-0.354300091341206,Higher values generally push prediction downward
+RANDWICK_PM10_LAG_3,0.004358681384474039,-0.3646612028735897,Higher values generally push prediction downward
+LIVERPOOL_PM25_LAG_6,0.004317949526011944,0.8997788461659372,Higher values generally push prediction upward
+BRINGELLY_NO2_LAG_24,0.004221983253955841,-0.2842888322465071,Higher values generally push prediction downward
+ROZELLE_CO_LAG_3,0.00421207956969738,0.010115301050498434,Mixed / non-linear directional effect
+ST_MARYS_PM10_LAG_3,0.004170313943177462,-0.7826939978428487,Higher values generally push prediction downward
+ROZELLE_TEMP_LAG_24,0.0041648163460195065,-0.7650831824479699,Higher values generally push prediction downward
+ST_MARYS_WSP,0.004123959690332413,-0.8988137047308593,Higher values generally push prediction downward
+RICHMOND_WDR_SIN,0.004115920048207045,0.6807191186651795,Higher values generally push prediction upward
+MONTH,0.004048098344355822,0.8659759155625757,Higher values generally push prediction upward
+RICHMOND_NO2_LAG_1,0.003965586889535189,-0.662269922740455,Higher values generally push prediction downward
+NEIGHBOR_PM25_X_ROZELLE_WSP,0.003962351009249687,-0.4547374387539148,Higher values generally push prediction downward
+ROZELLE_PM25_ROLL_STD_12,0.003948497120290995,-0.04123582022387639,Mixed / non-linear directional effect
+ST_MARYS_PM25_LAG_3,0.003934979438781738,0.428320868116012,Higher values generally push prediction upward
+ROZELLE_WDR_SIN_LAG_12,0.0038861518260091543,0.42299092300785884,Higher values generally push prediction upward
+BRINGELLY_O3_LAG_12,0.0038340550381690264,0.11678117492166655,Mixed / non-linear directional effect
+ST_MARYS_PM10_LAG_12,0.0038047737907618284,0.7314701558058674,Higher values generally push prediction upward
+ROZELLE_PM10_ROLL_MEAN_12,0.0037894758861511946,-0.7481895689342752,Higher values generally push prediction downward
+NEIGHBOR_MAX_PM10,0.0037490827962756157,0.07057006726011472,Mixed / non-linear directional effect
+ROZELLE_WDR_COS_LAG_6,0.0037465125788003206,-0.28788848896463215,Higher values generally push prediction downward
+RICHMOND_PM25_LAG_12,0.003739799838513136,0.21142378606450216,Higher values generally push prediction upward
+ROZELLE_PM25_LAG_24,0.0037079304456710815,0.6450384529437896,Higher values generally push prediction upward
+ST_MARYS_PM25_LAG_12,0.0036981774028390646,-0.6573500552392451,Higher values generally push prediction downward
+RANDWICK_O3_LAG_1,0.003690548473969102,0.0788110223846945,Mixed / non-linear directional effect
+RANDWICK_PM10_LAG_1,0.0036813532933592796,0.6859429789992482,Higher values generally push prediction upward
+ROZELLE_TEMP_ROLL_STD_24,0.003630926599726081,0.347995424971406,Higher values generally push prediction upward
+BRINGELLY_NO2,0.0036056411918252707,0.47841430074160973,Higher values generally push prediction upward
+LIVERPOOL_HUMID,0.003579573007300496,0.3860602754126879,Higher values generally push prediction upward
+ST_MARYS_HUMID,0.0035539409145712852,0.6121968035488332,Higher values generally push prediction upward
+NEIGHBOR_MAX_O3,0.0035385352093726397,-0.09604197348173434,Mixed / non-linear directional effect
+BRINGELLY_WDR_SIN,0.00353796174749732,0.7516912511513087,Higher values generally push prediction upward
+NEIGHBOR_MIN_PM25,0.003532168921083212,-0.053297502859786426,Mixed / non-linear directional effect
+ROZELLE_CO_LAG_24,0.00350124086253345,-0.08933290710405624,Mixed / non-linear directional effect
+RANDWICK_O3_LAG_24,0.0035004166420549154,-0.3190482180660812,Higher values generally push prediction downward
+LIVERPOOL_O3_LAG_1,0.003458637511357665,0.6390095461023152,Higher values generally push prediction upward
+ROZELLE_HUMID_ROLL_MEAN_24,0.003443316323682666,0.21399243891902375,Higher values generally push prediction upward
+ST_MARYS_O3_LAG_12,0.0034414713736623526,-0.21704962498379832,Higher values generally push prediction downward
+ROZELLE_PM25_ROLL_MEAN_12,0.0034387214109301567,-0.4706739676701851,Higher values generally push prediction downward
+BRINGELLY_PM25_LAG_12,0.003430015407502651,-0.5091303597703696,Higher values generally push prediction downward
+RICHMOND_O3,0.0034281807020306587,-0.6600939702585371,Higher values generally push prediction downward
+ROZELLE_HUMID_ROLL_MEAN_6,0.0034054461866617203,-0.13034258697758683,Mixed / non-linear directional effect
+ROZELLE_TEMP_LAG_12,0.003337741596624255,-0.7984910835759672,Higher values generally push prediction downward
+BRINGELLY_PM10_LAG_12,0.003336806083098054,0.005146972310357474,Mixed / non-linear directional effect
+ROZELLE_NO2_LAG_3,0.0033046104945242405,-0.4167538404675034,Higher values generally push prediction downward
+RICHMOND_WDR_COS,0.003217683406546712,0.730716420284062,Higher values generally push prediction upward
+NEIGHBOR_MIN_PM10,0.003155018202960491,0.3870386322137567,Higher values generally push prediction upward
+ROZELLE_TEMP_ROLL_STD_12,0.003141676774248481,0.29610316314476964,Higher values generally push prediction upward
+RANDWICK_PM25_LAG_1,0.003113000886514783,-0.3423207807413629,Higher values generally push prediction downward
+ST_MARYS_NO2,0.003096675965934992,0.004250585612191536,Mixed / non-linear directional effect
+RICHMOND_PM10_LAG_1,0.0030826986767351627,0.3255128165866264,Higher values generally push prediction upward
+LIVERPOOL_CO_LAG_6,0.00304801226593554,0.18634096498475755,Mixed / non-linear directional effect
+ROZELLE_CO_ROLL_MEAN_6,0.003043580101802945,-0.7083619430550345,Higher values generally push prediction downward
+RANDWICK_PM10_LAG_12,0.0030394895002245903,-0.7139943851276888,Higher values generally push prediction downward
+ST_MARYS_WDR_SIN,0.0030197196174412966,-0.5153748678299499,Higher values generally push prediction downward
+RANDWICK_O3_LAG_3,0.0030143731273710728,0.7781002314682873,Higher values generally push prediction upward
+BRINGELLY_O3_LAG_1,0.0029513759072870016,0.10257879702289656,Mixed / non-linear directional effect
+ROZELLE_O3_ROLL_STD_3,0.002932960167527199,0.5881154910090061,Higher values generally push prediction upward
+RANDWICK_WDR_COS,0.002927744761109352,-0.38246159286109893,Higher values generally push prediction downward
+ROZELLE_TEMP_LAG_6,0.0029098165687173605,0.3288280780024045,Higher values generally push prediction upward
+RICHMOND_O3_LAG_12,0.0028218459337949753,0.39067122510857705,Higher values generally push prediction upward
+BRINGELLY_WDR_COS,0.0028153778985142708,-0.2109507598686263,Higher values generally push prediction downward
+ROZELLE_NO2_ROLL_MEAN_24,0.0027856563683599234,-0.7347864792466638,Higher values generally push prediction downward
+ROZELLE_NO2_LAG_12,0.0027706651017069817,-0.6566422128459668,Higher values generally push prediction downward
+LIVERPOOL_PM10_LAG_6,0.0027703242376446724,-0.7805274461597083,Higher values generally push prediction downward
+ROZELLE_CO_ROLL_STD_24,0.0027608692180365324,-0.46364584251713425,Higher values generally push prediction downward
+ST_MARYS_NO2_LAG_1,0.002700650133192539,0.3226102777473771,Higher values generally push prediction upward
+RICHMOND_PM10,0.0026795407757163048,-0.3040975537205224,Higher values generally push prediction downward
+ROZELLE_O3_LAG_12,0.0026644193567335606,0.3989769915962349,Higher values generally push prediction upward
+ROZELLE_WDR_COS_LAG_12,0.0026624680031090975,0.6484842274586524,Higher values generally push prediction upward
+LIVERPOOL_PM25_LAG_12,0.002650914713740349,0.1425418210138079,Mixed / non-linear directional effect
+RICHMOND_PM10_LAG_6,0.0026444087270647287,0.45306516256970303,Higher values generally push prediction upward
+BRINGELLY_PM10,0.0026241487357765436,0.8010150165651361,Higher values generally push prediction upward
+LIVERPOOL_NO2_LAG_1,0.002619817852973938,-0.2771389634753425,Higher values generally push prediction downward
+ROZELLE_WSP_LAG_1,0.002610463183373213,-0.7560926113221361,Higher values generally push prediction downward
+ROZELLE_NO2_ROLL_MEAN_6,0.0026099386159330606,-0.43039575105263483,Higher values generally push prediction downward
+RANDWICK_PM25_LAG_12,0.0026020461227744818,0.7528582106591243,Higher values generally push prediction upward
+LIVERPOOL_PM10_LAG_12,0.002600671723484993,-0.6363848542940508,Higher values generally push prediction downward
+LIVERPOOL_PM25_LAG_3,0.002593869576230645,0.6032148243973382,Higher values generally push prediction upward
+LIVERPOOL_NO2_LAG_6,0.0025638968218117952,-0.8968337067086106,Higher values generally push prediction downward
+BRINGELLY_PM10_LAG_6,0.0025459006428718567,-0.7793505784725825,Higher values generally push prediction downward
+ROZELLE_PM10_LAG_6,0.00252357660792768,-0.6551529101879211,Higher values generally push prediction downward
+ROZELLE_CO_ROLL_MEAN_12,0.002508994657546282,-0.7863667834481055,Higher values generally push prediction downward
+NEIGHBOR_MEAN_PM10_LAG_1,0.002458278089761734,0.027731563869327694,Mixed / non-linear directional effect
+BRINGELLY_O3_LAG_24,0.00245464826002717,0.7787819284335106,Higher values generally push prediction upward
+ROZELLE_O3_ROLL_STD_12,0.0024445096496492624,-0.4045966101942802,Higher values generally push prediction downward
+BRINGELLY_PM25_LAG_6,0.002416497329249978,-0.6228007780139421,Higher values generally push prediction downward
+RICHMOND_PM25,0.002385662402957678,0.5199368039661153,Higher values generally push prediction upward
+LIVERPOOL_WDR_SIN,0.002360529499128461,-0.6863886614138676,Higher values generally push prediction downward
+ROZELLE_WDR_SIN_LAG_6,0.0023581429850310087,-0.4297335902366048,Higher values generally push prediction downward
+NEIGHBOR_STD_O3,0.0023545247968286276,-0.7053913328413088,Higher values generally push prediction downward
+ROZELLE_WDR_SIN_LAG_24,0.002326600020751357,0.46396595870410234,Higher values generally push prediction upward
+LIVERPOOL_PM10_LAG_24,0.0022893294226378202,-0.15440202416284987,Mixed / non-linear directional effect
+ST_MARYS_PM25_LAG_24,0.0022346945479512215,-0.5316681552618284,Higher values generally push prediction downward
+MONTH_COS,0.0022289222106337547,-0.4308726582366953,Higher values generally push prediction downward
+ROZELLE_PM10_ROLL_STD_12,0.0021899582352489233,0.5836776479853,Higher values generally push prediction upward
+LIVERPOOL_WDR_COS,0.0021864825394004583,-0.6902310378959493,Higher values generally push prediction downward
+ROZELLE_WDR_SIN_LAG_3,0.0021691154688596725,-0.4186629445122983,Higher values generally push prediction downward
+ROZELLE_WSP_LAG_6,0.00216280366294086,-0.3704830681415591,Higher values generally push prediction downward
+ROZELLE_PM25_LAG_12,0.002144153229892254,0.7194419427662689,Higher values generally push prediction upward
+ST_MARYS_PM25_LAG_1,0.0021042218431830406,-0.22949886451998366,Higher values generally push prediction downward
+ROZELLE_O3_ROLL_STD_6,0.0021007175091654062,-0.0878363384617725,Mixed / non-linear directional effect
+ST_MARYS_NO2_LAG_24,0.002076717559248209,-0.8500493002915551,Higher values generally push prediction downward
+NEIGHBOR_MAX_NO2,0.002071032766252756,0.6691185365694419,Higher values generally push prediction upward
+BRINGELLY_PM25_LAG_1,0.002069558249786496,0.3340648828386309,Higher values generally push prediction upward
+BRINGELLY_PM10_LAG_1,0.00206428999081254,-0.17294873885853587,Mixed / non-linear directional effect
+ROZELLE_NO2_ROLL_STD_6,0.0020490819588303566,-0.2616417523621663,Higher values generally push prediction downward
+ROZELLE_NO2_LAG_24,0.0020250631496310234,-0.8597402671174119,Higher values generally push prediction downward
+BRINGELLY_WSP,0.0019982613157480955,-0.08202308340623687,Mixed / non-linear directional effect
+RANDWICK_PM25_LAG_24,0.0019456956069916487,-0.47484704626444996,Higher values generally push prediction downward
+NEIGHBOR_STD_PM10,0.0019385330379009247,-0.03364314776967356,Mixed / non-linear directional effect
+ROZELLE_CO_ROLL_STD_12,0.0019332292722538114,-0.10769900855439571,Mixed / non-linear directional effect
+RICHMOND_NO2_LAG_6,0.001867094892077148,-0.4350308467373307,Higher values generally push prediction downward
+LIVERPOOL_CO_LAG_3,0.001864826655946672,-0.3162216559906111,Higher values generally push prediction downward
+ROZELLE_WSP_LAG_12,0.0018435448873788118,-0.7377229571947318,Higher values generally push prediction downward
+RICHMOND_PM10_LAG_24,0.001806784886866808,-0.07216551968237837,Mixed / non-linear directional effect
+RICHMOND_PM25_LAG_24,0.0017650517402216792,0.6511430943615122,Higher values generally push prediction upward
+ST_MARYS_O3,0.0017625096952542663,-0.3070916087229667,Higher values generally push prediction downward
+NEIGHBOR_MEAN_PM10_LAG_6,0.0017570597119629383,0.4608701485107851,Higher values generally push prediction upward
+ROZELLE_HUMID_ROLL_STD_24,0.0017411909066140652,0.1043320270751692,Mixed / non-linear directional effect
+ROZELLE_CO_ROLL_MEAN_24,0.0016707346076145768,-0.726271468475541,Higher values generally push prediction downward
+RICHMOND_PM25_LAG_1,0.0016618132358416915,-0.4559086787749611,Higher values generally push prediction downward
+RICHMOND_PM10_LAG_3,0.0016455167206004262,-0.2844408594073589,Higher values generally push prediction downward
+RANDWICK_NO2_LAG_6,0.001571898115798831,-0.0724948462451047,Mixed / non-linear directional effect
+RICHMOND_PM10_LAG_12,0.0015709268627688289,-0.6074104472104854,Higher values generally push prediction downward
+RANDWICK_NO2_LAG_3,0.0015662722289562225,0.09647870688982876,Mixed / non-linear directional effect
+ST_MARYS_PM10,0.00154873076826334,-0.822423627887328,Higher values generally push prediction downward
+RANDWICK_O3_LAG_6,0.0014924999559298158,0.5020854585213325,Higher values generally push prediction upward
+ROZELLE_PM10_LAG_12,0.0014649138320237398,-0.377858830899804,Higher values generally push prediction downward
+LIVERPOOL_O3_LAG_24,0.0014597936533391476,0.8344320167640772,Higher values generally push prediction upward
+ROZELLE_RAIN,0.0014103641733527184,-0.41572904510149866,Higher values generally push prediction downward
+BRINGELLY_PM25_LAG_24,0.0013922840589657426,0.6672498533943848,Higher values generally push prediction upward
+RANDWICK_O3_LAG_12,0.001372688915580511,-0.5430140296109822,Higher values generally push prediction downward
+RICHMOND_O3_LAG_24,0.001267101732082665,0.5628467142317354,Higher values generally push prediction upward
+ROZELLE_O3_LAG_24,0.0012283138930797577,-0.3719634771545477,Higher values generally push prediction downward
+ROZELLE_PM10_LAG_24,0.0012206569081172347,0.005833568224018001,Mixed / non-linear directional effect
+RANDWICK_PM25_LAG_6,0.0012009304482489824,0.6244728790073926,Higher values generally push prediction upward
+RICHMOND_NO2,0.0011743102222681046,0.001369829443423008,Mixed / non-linear directional effect
+ROZELLE_WSP_LAG_24,0.0011673903791233897,-0.08980435271395189,Mixed / non-linear directional effect
+BRINGELLY_PM10_LAG_24,0.0011402703821659088,-0.34889121826833847,Higher values generally push prediction downward
+BRINGELLY_HUMID,0.0011336144525557756,-0.3026534941127906,Higher values generally push prediction downward
+ST_MARYS_WDR_COS,0.0011322619393467903,0.4167291359487104,Higher values generally push prediction upward
+ROZELLE_NO2_ROLL_STD_3,0.0011300264159217477,0.08934079197131857,Mixed / non-linear directional effect
+ST_MARYS_O3_LAG_24,0.0011171660153195262,0.399804351148672,Higher values generally push prediction upward
+LIVERPOOL_CO_LAG_24,0.0010687385220080614,-0.49118702345586496,Higher values generally push prediction downward
+LIVERPOOL_PM25_LAG_24,0.0010677718091756105,0.09781469680748243,Mixed / non-linear directional effect
+RICHMOND_NO2_LAG_24,0.0010608563898131251,0.1794678482846888,Mixed / non-linear directional effect
+LIVERPOOL_RAIN,0.0010081601794809103,0.4194801605904577,Higher values generally push prediction upward
+NEIGHBOR_MEAN_PM25_LAG_24,0.0009804883738979697,-0.053991099000641626,Mixed / non-linear directional effect
+ST_MARYS_PM10_LAG_24,0.0009743039845488966,-0.35882233606060343,Higher values generally push prediction downward
+RICHMOND_NO2_LAG_12,0.0009547623922117054,-0.5669385021576994,Higher values generally push prediction downward
+DOW_COS,0.0009505777852609754,0.6751053840422659,Higher values generally push prediction upward
+BRINGELLY_NO2_LAG_3,0.0009493671823292971,-0.3213116751786952,Higher values generally push prediction downward
+ST_MARYS_O3_LAG_1,0.0009463999886065722,0.5816660618381969,Higher values generally push prediction upward
+RANDWICK_PM10_LAG_24,0.0009415130480192602,0.3073007479831889,Higher values generally push prediction upward
+LIVERPOOL_CO_LAG_1,0.0009297329233959317,0.037638160076707144,Mixed / non-linear directional effect
+LIVERPOOL_NO2_LAG_24,0.0009250271250493824,-0.7245820629722158,Higher values generally push prediction downward
+NEIGHBOR_MEAN_PM10_LAG_12,0.0008886680589057505,-0.28127616379355747,Higher values generally push prediction downward
+ROZELLE_CO_LAG_6,0.0008325056987814605,0.057389670611989886,Mixed / non-linear directional effect
+NEIGHBOR_MEAN_PM10_LAG_24,0.0008320359047502279,-0.7357651753105218,Higher values generally push prediction downward
+RICHMOND_RAIN,0.0008155969553627074,-0.11697159014066481,Mixed / non-linear directional effect
+LIVERPOOL_NO2_LAG_3,0.000792909471783787,-0.6373081033667058,Higher values generally push prediction downward
+RICHMOND_O3_LAG_1,0.0007530528237111866,-0.19657347947264192,Mixed / non-linear directional effect
+ROZELLE_HUMID_LAG_24,0.0007359465816989541,-0.6340196126790248,Higher values generally push prediction downward
+ST_MARYS_NO2_LAG_6,0.0006806536111980677,0.49279171956189227,Higher values generally push prediction upward
+ROZELLE_NO2_ROLL_MEAN_3,0.0006281379028223455,-0.13566536543339458,Mixed / non-linear directional effect
+LIVERPOOL_CO_LAG_12,0.0006192090804688632,0.14657392263167796,Mixed / non-linear directional effect
+ST_MARYS_PM10_LAG_6,0.00059706368483603,0.03822452765501193,Mixed / non-linear directional effect
+BRINGELLY_NO2_LAG_6,0.0005664856871590018,0.4013699570071931,Higher values generally push prediction upward
+RICHMOND_NO2_LAG_3,0.0005424535484053195,-0.3547938467627699,Higher values generally push prediction downward
+ST_MARYS_NO2_LAG_3,0.00038467769627459347,-0.2950806361757617,Higher values generally push prediction downward
+BRINGELLY_NO2_LAG_12,0.0003318272065371275,-0.13795502783292185,Mixed / non-linear directional effect
+NEIGHBOR_MIN_NO2,0.00030904903542250395,0.6607233463883957,Higher values generally push prediction upward
+RANDWICK_NO2_LAG_12,0.0003083599731326103,0.00398531938857056,Mixed / non-linear directional effect
+ROZELLE_CO_LAG_12,0.0001924243988469243,-0.46419161687058186,Higher values generally push prediction downward
+ST_MARYS_NO2_LAG_12,0.00010492205910850316,0.6010829408047025,Higher values generally push prediction upward
+RANDWICK_RAIN,0.0,,No clear direction
